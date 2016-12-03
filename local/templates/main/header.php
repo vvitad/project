@@ -293,8 +293,8 @@ Loc::loadMessages(__FILE__);?>
                     <div class="mainmenu hidden-sm hidden-xs">
                         <nav>
                             <ul>
-                                <li><a href="index.html">Главная</a></li>
-                                <li><a href="#">Товары</a></li>
+                                <li><a href="http://192.168.1.38">Главная</a></li>
+                                <li><a href="http://192.168.1.38/catalog/">Категории товаров</a></li>
                                 <li><a href="#">Доставка и оплата</a></li>
                                 <li><a href="#">Контакты</a></li>
                             </ul>
