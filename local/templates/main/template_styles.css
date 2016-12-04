@@ -1749,7 +1749,7 @@ ul.footer-content.box-information li a {
     margin-right: 20px;
 }
 .payment {
-    float: right;
+    float: none;
 }
 #scrollUp {
     background: #e95668 url("images/icon/back-top.png") no-repeat scroll 0 0;

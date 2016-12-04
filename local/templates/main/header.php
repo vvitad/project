@@ -6,65 +6,66 @@
  * Time: 7:55 AM
  */
 ?>
-<?if(!defined("B_PROLOG_INCLUDED")||B_PROLOG_INCLUDED!==true)die();
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 ?>
-<?use Bitrix\Main\Localization\Loc;
+<? use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\Page\Asset;
-Loc::loadMessages(__FILE__);?>
+
+Loc::loadMessages(__FILE__); ?>
 <!doctype html>
-<html class="no-js" lang="<?=LANGUAGE_ID?>">
+<html class="no-js" lang="<?= LANGUAGE_ID ?>">
 <head>
 
-    <title><?$APPLICATION->ShowTitle();?></title>
-    <?$APPLICATION->ShowHead();?>
+    <title><? $APPLICATION->ShowTitle(); ?></title>
+    <? $APPLICATION->ShowHead(); ?>
 
     <!-- favicon
     ============================================ -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH;?>/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= SITE_TEMPLATE_PATH; ?>/images/favicon.ico">
 
     <!-- Google Fonts
     ============================================ -->
-    <?Asset::getInstance()-> addCss('https://fonts.googleapis.com/css?family=Raleway:400,600');?>
-    <?Asset::getInstance()-> addCss('https://fonts.googleapis.com/css?family=Roboto:400,700');?>
+    <? Asset::getInstance()->addCss('https://fonts.googleapis.com/css?family=Raleway:400,600'); ?>
+    <? Asset::getInstance()->addCss('https://fonts.googleapis.com/css?family=Roboto:400,700'); ?>
 
 
     <!-- Bootstrap CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/bootstrap.min.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap.min.css"); ?>
 
     <!-- Font awesome CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/font-awesome.min.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/font-awesome.min.css"); ?>
     <!-- owl.carousel CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/owl.carousel.css");?>
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/owl.theme.css");?>
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/owl.transitions.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/owl.carousel.css"); ?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/owl.theme.css"); ?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/owl.transitions.css"); ?>
     <!-- nivo slider CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/nivo-slider.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/nivo-slider.css"); ?>
     <!-- meanmenu CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/meanmenu.min.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/meanmenu.min.css"); ?>
     <!-- jquery-ui CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/jquery-ui.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/jquery-ui.css"); ?>
 
     <!-- animate CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/animate.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/animate.css"); ?>
     <!-- main CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/main.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/main.css"); ?>
     <!-- style CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/style.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/style.css"); ?>
     <!-- responsive CSS
     ============================================ -->
-    <?Asset::getInstance()-> addCss(SITE_TEMPLATE_PATH."/css/responsive.css");?>
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/responsive.css"); ?>
 </head>
 <body>
-<?$APPLICATION->ShowPanel();?>
+<? $APPLICATION->ShowPanel(); ?>
 <!-- HEADER-AREA START -->
 <header class="header-area">
     <!-- HEADER-TOP START -->
@@ -84,7 +85,7 @@ Loc::loadMessages(__FILE__);?>
                                     "EDIT_TEMPLATE" => "",
                                     "PATH" => SITE_TEMPLATE_PATH . "/include_areas/welcome_msg.php"
                                 )); ?>
-                            </p>
+                        </p>
                     </div>
                     <!-- Start Top-Link -->
                     <div class="top-link">
@@ -112,7 +113,7 @@ Loc::loadMessages(__FILE__);?>
                             <div class="support-content">
                                 <i class="fa fa-clock-o"></i>
                                 <div class="support-text">
-                                    <h1 class="zero gfont-1"><?=Loc::getMessage("WORKING_TIME");?></h1>
+                                    <h1 class="zero gfont-1"><?= Loc::getMessage("WORKING_TIME"); ?></h1>
                                     <p>
                                         <? $APPLICATION->IncludeComponent("bitrix:main.include",
                                             "",
@@ -134,7 +135,7 @@ Loc::loadMessages(__FILE__);?>
                         <div class="single-support">
                             <i class="fa fa-truck"></i>
                             <div class="support-text">
-                                <h1 class="zero gfont-1"><?=Loc::getMessage("FREE_SHIPPING");?></h1>
+                                <h1 class="zero gfont-1"><?= Loc::getMessage("FREE_SHIPPING"); ?></h1>
                                 <p>
                                     <? $APPLICATION->IncludeComponent("bitrix:main.include",
                                         "",
@@ -155,7 +156,7 @@ Loc::loadMessages(__FILE__);?>
                         <div class="single-support">
                             <i class="fa fa-phone-square"></i>
                             <div class="support-text">
-                                <h1 class="zero gfont-1"><?=Loc::getMessage("CALL_NOW");?></h1>
+                                <h1 class="zero gfont-1"><?= Loc::getMessage("CALL_NOW"); ?></h1>
                                 <p>
                                     <? $APPLICATION->IncludeComponent("bitrix:main.include",
                                         "",
@@ -197,18 +198,18 @@ Loc::loadMessages(__FILE__);?>
                             <div class="search-container">
                                 <select>
                                     <option class="all-cate">Все категории</option>
-                                    <optgroup  class="cate-item-head" label="Бакалея">
+                                    <optgroup class="cate-item-head" label="Бакалея">
                                         <option class="cate-item-title">Колбасы</option>
                                         <option class="c-item">Сыры</option>
                                         <option class="c-item">Тофу</option>
                                     </optgroup>
-                                    <optgroup  class="cate-item-head" label="Растительные молочные продукты">
+                                    <optgroup class="cate-item-head" label="Растительные молочные продукты">
                                         <option class="cate-item-title">Молоко</option>
                                         <option class="c-item">Йогурты</option>
                                         <option class="c-item">Соусы</option>
                                         <option class="c-item">Десерты</option>
                                     </optgroup>
-                                    <optgroup  class="cate-item-head" label="Замороженные продукты">
+                                    <optgroup class="cate-item-head" label="Замороженные продукты">
                                         <option class="c-item">Котлеты</option>
                                         <option class="c-item">Вареники</option>
                                     </optgroup>
@@ -235,7 +236,9 @@ Loc::loadMessages(__FILE__);?>
                                     <div class="mini-cart-content">
                                         <div class="cart-img-details">
                                             <div class="cart-img-photo">
-                                                <a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/product/total-cart.jpg" alt="#"></a>
+                                                <a href="#"><img
+                                                        src="<?= SITE_TEMPLATE_PATH; ?>/images/product/total-cart.jpg"
+                                                        alt="#"></a>
                                             </div>
                                             <div class="cart-img-content">
                                                 <a href="#"><h4>Ванильный йогурт</h4></a>
@@ -251,7 +254,9 @@ Loc::loadMessages(__FILE__);?>
                                         <div class="clear"></div>
                                         <div class="cart-img-details">
                                             <div class="cart-img-photo">
-                                                <a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/product/total-cart2.jpg" alt="#"></a>
+                                                <a href="#"><img
+                                                        src="<?= SITE_TEMPLATE_PATH; ?>/images/product/total-cart2.jpg"
+                                                        alt="#"></a>
                                             </div>
                                             <div class="cart-img-content">
                                                 <a href="#"><h4>Вареники</h4></a>
@@ -284,25 +289,28 @@ Loc::loadMessages(__FILE__);?>
             <!-- End logo & Search Box -->
         </div>
     </div>
+
+
+
     <!-- HEADER-MIDDLE END -->
-    <?$APPLICATION->IncludeComponent("bitrix:menu", "top_menu", Array(
-            "ALLOW_MULTI_SELECT" => "N",
-            "CHILD_MENU_TYPE" => "left",
-            "COMPOSITE_FRAME_MODE" => "A",
-            "COMPOSITE_FRAME_TYPE" => "AUTO",
-            "DELAY" => "N",
-            "MAX_LEVEL" => "2",
-            "MENU_CACHE_GET_VARS" => array(
-                0 => "",
-                ),
-            "MENU_CACHE_TIME" => "3600",
-            "MENU_CACHE_TYPE" => "A",
-            "MENU_CACHE_USE_GROUPS" => "Y",
-            "ROOT_MENU_TYPE" => "left",
-            "USE_EXT" => "Y"
+    <? $APPLICATION->IncludeComponent("bitrix:menu", "top_menu", Array(
+        "ALLOW_MULTI_SELECT" => "N",
+        "CHILD_MENU_TYPE" => "left",
+        "COMPOSITE_FRAME_MODE" => "A",
+        "COMPOSITE_FRAME_TYPE" => "AUTO",
+        "DELAY" => "N",
+        "MAX_LEVEL" => "2",
+        "MENU_CACHE_GET_VARS" => array(
+            0 => "",
         ),
+        "MENU_CACHE_TIME" => "3600",
+        "MENU_CACHE_TYPE" => "A",
+        "MENU_CACHE_USE_GROUPS" => "Y",
+        "ROOT_MENU_TYPE" => "left",
+        "USE_EXT" => "Y"
+    ),
         false
-    );?>
+    ); ?>
 
 
 </header>
