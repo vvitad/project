@@ -285,43 +285,25 @@ Loc::loadMessages(__FILE__);?>
         </div>
     </div>
     <!-- HEADER-MIDDLE END -->
-    <!-- START MAINMENU-AREA -->
-    <div class="mainmenu-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mainmenu hidden-sm hidden-xs">
-                        <nav>
-                            <ul>
-                                <li><a href="http://192.168.1.38">Главная</a></li>
-                                <li><a href="http://192.168.1.38/catalog/">Категории товаров</a></li>
-                                <li><a href="#">Доставка и оплата</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END MAIN-MENU-AREA -->
-    <!-- Start Mobile-menu -->
-    <div class="mobile-menu-area hidden-md hidden-lg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <nav id="mobile-menu">
-                        <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Товары</a></li>
-                            <li><a href="#">Доставка и оплата</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Mobile-menu -->
+    <?$APPLICATION->IncludeComponent("bitrix:menu", "top_menu", Array(
+            "ALLOW_MULTI_SELECT" => "N",
+            "CHILD_MENU_TYPE" => "left",
+            "COMPOSITE_FRAME_MODE" => "A",
+            "COMPOSITE_FRAME_TYPE" => "AUTO",
+            "DELAY" => "N",
+            "MAX_LEVEL" => "2",
+            "MENU_CACHE_GET_VARS" => array(
+                0 => "",
+                ),
+            "MENU_CACHE_TIME" => "3600",
+            "MENU_CACHE_TYPE" => "A",
+            "MENU_CACHE_USE_GROUPS" => "Y",
+            "ROOT_MENU_TYPE" => "left",
+            "USE_EXT" => "Y"
+        ),
+        false
+    );?>
+
+
 </header>
 <!-- HEADER AREA END -->
