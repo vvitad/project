@@ -151,5 +151,6 @@
         </div>
     </div>
     <!-- Copyright-area End -->
+
 </footer>
 <!-- FOOTER-AREA END -->

@@ -1745,7 +1745,7 @@ ul.footer-content.box-information li a {
 .copyright {}
 .copyright > p {
     color: #ddd;
-    float: left;
+    float: none;
     margin-right: 20px;
 }
 .payment {
