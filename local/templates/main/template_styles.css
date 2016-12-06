@@ -1067,7 +1067,7 @@ p.welcome-msg {
     box-shadow: 0 2px 7px -1px #555 inset;
 }
 .preview-1 .nivo-controlNav {
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     position: absolute;
     right: 0;

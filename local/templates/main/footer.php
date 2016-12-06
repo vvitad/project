@@ -6,6 +6,7 @@
  * Time: 7:55 AM
  */
 ?>
+</div>
 <!-- FOOTER-AREA START -->
 <footer class="footer-area">
     <!-- Footer Start -->
@@ -154,3 +155,69 @@
 
 </footer>
 <!-- FOOTER-AREA END -->
+    <!-- jquery
+          ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery-1.11.3.min.js", true); ?>
+    <!-- bootstrap JS
+    ============================================ -->
+<?// Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/bootstrap.min.js", true); ?>
+    <!-- wow JS
+    ============================================ -->
+<?// Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/wow.min.js", true); ?>
+    <!-- meanmenu JS
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.meanmenu.js", true); ?>
+    <!-- owl.carousel JS
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/owl.carousel.min.js", true); ?>
+    <!-- scrollUp JS
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.scrollUp.min.js", true); ?>
+    <!-- countdon.min JS
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/countdon.min.js", true); ?>
+    <!-- jquery-price-slider js
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery-price-slider.js", true); ?>
+    <!-- Nivo slider js
+    ============================================ -->
+<?// Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.nivo.slider.js", true); ?>
+    <!-- plugins JS
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/plugins.js", true); ?>
+    <!-- main JS
+    ============================================ -->
+<? //Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/main.js", true); ?>
+<!-- jquery
+		============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/jquery-1.11.3.min.js"></script>
+<!-- bootstrap JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/bootstrap.min.js"></script>
+<!-- wow JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/wow.min.js"></script>
+<!-- meanmenu JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/jquery.meanmenu.js"></script>
+<!-- owl.carousel JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/owl.carousel.min.js"></script>
+<!-- scrollUp JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/jquery.scrollUp.min.js"></script>
+<!-- countdon.min JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/countdon.min.js"></script>
+<!-- jquery-price-slider js
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/jquery-price-slider.js"></script>
+<!-- Nivo slider js
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/jquery.nivo.slider.js" type="text/javascript"></script>
+<!-- plugins JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/plugins.js"></script>
+<!-- main JS
+============================================ -->
+<script src="<?=SITE_TEMPLATE_PATH;?>/js/main.js"></script>
