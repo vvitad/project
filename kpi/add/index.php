@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
+$APPLICATION->SetTitle("ADD");
 ?><?$APPLICATION->IncludeComponent(
-	"miet:kpi.employee.detail",
+	"soybeen:kpi.employee.detail",
 	"",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

@@ -1,4 +1,5 @@
-<?php namespace MIET\KPI;
+<?php
+namespace MIET\KPI;
 
 use Bitrix\Main\Application;
 use Bitrix\Main\Entity;
@@ -13,6 +14,15 @@ class KPIManager
 {
     const IBLOCK_CODE_KPI = 'kpi';
     const IBLOCK_CODE_DEPARTMENTS = 'departments';
+
+    public static function GetKPIEmployeeValue($idKPI, $idEmployee, $period)
+    {
+        return KPIEmployeeTable::getList(array(
+                'select' => array('ID', 'UF_VALUE'),
+                'filter' => array('=UF_KPI' => $idKPI, '=UF_EMPLOYEE' => $idEmployee,
+                    '=UF_PERIOD' => \Bitrix\Main\Type\DateTime::createFromUserTime($period)))
+        )->fetch();
+    }
 
     public static function GetKPI(
         $arOrder = array('SORT' => 'ASC'),
@@ -90,21 +100,15 @@ class KPIManager
         $db->startTransaction();
 
         foreach ($arKPIValues as $KPI => $KPIValue) {
-            $arValue = array(
-                'UF_VALUE' => $KPIValue,
+            $arValue = array('UF_VALUE' => $KPIValue,
                 'UF_KPI' => $KPI,
                 'UF_EMPLOYEE' => $idEmployee,
                 'UF_CREATED_BY' => $USER->GetID(),
-                'UF_CREATED' => new\Bitrix\Main\Type\DateTime(date('d.m.Y') . ' 00:00:00'),
-                'UF_PERIOD' => new\Bitrix\Main\Type\DateTime($period . ' 00:00:00'));
-
-            $oldKPI = self::GetKPIEmployeeValue($KPI, $idEmployee, $period)[0];
-            if (isset($oldKPI["ID"])) {
-                $result = KPIEmployeeTable::update($oldKPI["ID"], $arValue);
-            } else {
-                $result = KPIEmployeeTable::add($arValue);
-            }
-
+                'UF_CREATED' => new
+                \Bitrix\Main\Type\DateTime(date('d.m.Y') . ' 00:00:00'),
+                'UF_PERIOD' => new
+                \Bitrix\Main\Type\DateTime($period . ' 00:00:00')
+            );
             $result = KPIEmployeeTable::add($arValue);
             if (!$result->isSuccess()) {
                 $db->rollbackTransaction();
@@ -115,20 +119,5 @@ class KPIManager
             $db->commitTransaction();
             return true;
         }
-    }
-
-    public static function GetKPIEmployeeValue($idKPI, $idEmployee, $period)
-    {
-        return KPIEmployeeTable::getList(array(
-                'select' => array("ID", "UF_VALUE"),
-                'filter' => array(
-                    'UF_EMPLOYEE' => $idEmployee,
-                    'UF_KPI' => $idKPI,
-                    'UF_PERIOD' => \Bitrix\Main\Type\DateTime::createFromUserTime($period)
-                )
-            )
-
-        )->fetchAll();
-
     }
 }

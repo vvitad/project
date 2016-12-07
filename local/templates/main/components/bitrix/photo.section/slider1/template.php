@@ -30,7 +30,7 @@ $this->setFrameMode(true);
         <div id="slider-direction-<?=$arItem[SORT];?>" class="slider-direction">
             <div class="slider-progress"></div>
             <div class="layer-<?=$arItem[SORT];?>-3">
-                <a href="<?=$arItem[PROPERTY_56];?>" class="title3">Купить</a>
+                <a href="<?=$arItem[PROPERTY_56];?>" class="title3">Каталог</a>
             </div>
         </div>
             <?endif;?>

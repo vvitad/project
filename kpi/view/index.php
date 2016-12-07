@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
+$APPLICATION->SetTitle("VIEW");
 ?><?$APPLICATION->IncludeComponent(
-	"miet:kpi.employee.output",
+	"soybeen:kpi.employee.output",
 	"",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -15,4 +15,4 @@ $APPLICATION->SetTitle("Title");
 		"SET_STATUS_404" => "N",
 		"USER_ID" => $_REQUEST["USER_ID"]
 	)
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

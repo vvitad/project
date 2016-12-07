@@ -31,8 +31,7 @@ class KPIDepartmentTable extends Entity\DataManager
             ),
             'UF_KPI' => array(
                 'data_type' => 'integer',
-                'required' => true,
-                'title' => Loc::getMessage('KPI_ENTITY_UF_KPI_FIELD')
+                'required' => true, 'title' => Loc::getMessage('KPI_ENTITY_UF_KPI_FIELD')
             ),
             'UF_VALUE' => array(
                 'data_type' => 'float',
@@ -89,8 +88,7 @@ class KPIDepartmentTable extends Entity\DataManager
                 array('=this.UF_DEPARTMENT' => 'ref.ID')
             ),
             new Entity\ReferenceField(
-                'UF_CREATED_BY',
-                'Bitrix\Main\UserTable',
+                'UF_CREATED_BY', 'Bitrix\Main\UserTable',
                 array('=this.UF_CREATED_BY' => 'ref.ID')
             ),
             new Entity\ReferenceField(

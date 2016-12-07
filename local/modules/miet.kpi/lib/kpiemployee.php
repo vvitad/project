@@ -31,17 +31,15 @@ class KPIEmployeeTable extends Entity\DataManager
             ),
             'UF_KPI' => array(
                 'data_type' => 'integer',
-                'required' => true,
-                'title' => Loc::getMessage('KPI_ENTITY_UF_KPI_FIELD')
+                'required' => true, 'title' => Loc::getMessage('KPI_ENTITY_UF_KPI_FIELD')
             ),
             'UF_VALUE' => array(
                 'data_type' => 'float',
                 'required' => true,
-                /*'validation' => array(//Метод-валидатор значения
+                'validation' => array(//Метод-валидатор значения
                     __CLASS__,//Имя класса метода-валидатора, в данном случае текущий класс
                     'validateValue' //Название метода-валидатора в данном классе
-
-                ),*/
+                ),
                 'title' =>
                     Loc::getMessage('KPI_ENTITY_UF_VALUE_FIELD')
             ),
@@ -49,7 +47,7 @@ class KPIEmployeeTable extends Entity\DataManager
                 'data_type' => 'integer',
                 'required' => true,
                 'title' =>
-                    Loc::getMessage('KPI_ENTITY_UF_Employee_FIELD')
+                    Loc::getMessage('KPI_ENTITY_UF_EMPLOYEE_FIELD')
             ),
             'UF_CREATED_BY' => array(
                 'data_type' => 'integer',
@@ -86,12 +84,11 @@ class KPIEmployeeTable extends Entity\DataManager
             ),
             new Entity\ReferenceField(
                 'UF_EMPLOYEE',
-                'Bitrix\Iblock\SectionElementTable',
-                array('=this.UF_Employee' => 'ref.ID')
+                'Bitrix\Main\UserTable',
+                array('=this.UF_EMPLOYEE' => 'ref.ID')
             ),
             new Entity\ReferenceField(
-                'UF_CREATED_BY',
-                'Bitrix\Main\UserTable',
+                'UF_CREATED_BY', 'Bitrix\Main\UserTable',
                 array('=this.UF_CREATED_BY' => 'ref.ID')
             ),
             new Entity\ReferenceField(
