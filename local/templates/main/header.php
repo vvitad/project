@@ -93,8 +93,8 @@ Loc::loadMessages(__FILE__); ?>
                     <!-- Start Top-Link -->
                     <div class="top-link">
                         <ul class="link">
-                            <li><a href="#"><i class="fa fa-user"></i> Мой аккаунт</a></li>
-                            <li><a href="#"><i class="fa fa-share"></i> Корзина</a></li>
+                            <li><a href="http://127.0.0.1:50080/personal/"><i class="fa fa-user"></i> Мой аккаунт</a></li>
+                            <li><a href="http://127.0.0.1:50080/cart.php"><i class="fa fa-share"></i> Корзина</a></li>
                             <li><a href="#"><i class="fa fa-unlock-alt"></i> Войти</a></li>
                         </ul>
                     </div>

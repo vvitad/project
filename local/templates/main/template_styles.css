@@ -166,7 +166,7 @@ i.fa.fa-shopping-cart {
 .top-menu > ul > li > a:hover {}
 .top-menu > ul > li > ul {
     background: #fff none repeat scroll 0 0;
-    border-color: #26acce #ddd #ddd;
+    border-color: #006e30 #ddd #ddd;
     border-style: solid;
     border-width: 3px 1px 1px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
@@ -251,7 +251,7 @@ p.welcome-msg {
     padding-right: 5px;
 }
 .top-link > ul.link > li a:hover, .top-link > ul.link > li a:focus, .top-link > ul.link > li a:active {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
     font-size: 13px;
     line-height: 50px;
@@ -361,7 +361,7 @@ p.welcome-msg {
     position: relative;
 }
 .header-middle button {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
     font-size: 14px;
     font-weight: 700;
@@ -374,7 +374,7 @@ p.welcome-msg {
     width: 55px;
 }
 .header-middle button:hover {
-    background: #ed7987 none repeat scroll 0 0;
+    background: #e9eda2 none repeat scroll 0 0;
 }
 .top-cart {
     float: right;
@@ -387,7 +387,7 @@ p.welcome-msg {
     display: block;
 }
 .top-cart ul li a span i {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
     float: left;
     font-size: 16px;
@@ -398,7 +398,7 @@ p.welcome-msg {
     margin: 0 5px 0 0;
 }
 .top-cart ul li a:hover i {
-    background: #ed7987 none repeat scroll 0 0;
+    background: #e9eda2 none repeat scroll 0 0;
 }
 .top-cart .cart-total {
     color: #929292;
@@ -429,7 +429,7 @@ p.welcome-msg {
     text-transform: uppercase;
 }
 .top-cart span.top-cart-price {
-    color: #e95668;
+    color: #e2dc72;
     font-size: 15px;
     margin-right: 0;
     white-space: nowrap !important;
@@ -489,10 +489,10 @@ p.welcome-msg {
     transition: all 0.3s ease 0s;
 }
 .top-cart ul li .mini-cart-content .cart-img-details .cart-img-content h4:hover {
-    color: #26ACCE;
+    color: #006e30;
 }
 .cart-price {
-    color: #26acce;
+    color: #006e30;
     font-size: 16px;
 }
 .top-cart ul li .mini-cart-content .cart-img-details .cart-img-content span {
@@ -532,7 +532,7 @@ p.welcome-msg {
     width: 100%;
 }
 .total span {
-    color: #26acce;
+    color: #006e30;
     float: right;
     font-size: 20px;
     font-weight: 600;
@@ -555,7 +555,7 @@ p.welcome-msg {
     transition: all 0.3s ease 0s;
 }
 .mini-cart-content .cart-button-top a:hover {
-    background: #26ACCE;
+    background: #006e30;
 }
 /*----------------------------------------*/
 /*  2.3  Mainmenu-Area
@@ -581,12 +581,12 @@ p.welcome-msg {
 .mainmenu ul li:last-child a {
     border-right: 0 none;
 }
-.mainmenu ul li.active a {color: #26acca;}
+.mainmenu ul li.active a {color: #006e30;}
 .mainmenu ul li:hover a {
     color: #26acca;
 }
 .mainmenu ul li.hot a::before {
-    background: #e95668 none repeat scroll 0 0;
+    background: #ffd535 none repeat scroll 0 0;
     content: "HOT";
     color: #fff;
     font-size: 12px;
@@ -606,7 +606,7 @@ p.welcome-msg {
     position: absolute;
     top: -14px;
     width: 14px;
-    border-top-color: #e95668 !important;
+    border-top-color: #ffd535 !important;
     right: 22px;
     transition: all 0.3s ease-out 0s;
 }
@@ -678,7 +678,7 @@ p.welcome-msg {
     transition: all 0.3s ease 0s;
 }
 .mainmenu ul li:hover ul li a{color:#444;}
-.mainmenu ul li:hover ul li a:hover{color:#26acca;margin-left:5px}
+.mainmenu ul li:hover ul li a:hover{color:#006e30;margin-left:5px}
 /*----------------------------------------*/
 /*  3.  Categories Menu
 /*----------------------------------------*/
@@ -686,7 +686,7 @@ p.welcome-msg {
     overflow: hidden;
 }
 .left-category-menu > .left-product-cat > .category-heading > h2 {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
@@ -755,9 +755,9 @@ p.welcome-msg {
     line-height: 41px;
 }
 .category-menu-list ul li.active a {
-    color: #26acce;
+    color: #006e30;
 }
-.category-menu-list ul li a:hover {color: #26ACCE;}
+.category-menu-list ul li a:hover {color: #006e30;}
 .category-menu-list ul li .cat-left-drop-menu {
     background: hsl(0, 0%, 100%) none repeat scroll 0 0;
     border: 1px solid #eee;
@@ -812,7 +812,7 @@ p.welcome-msg {
     position: relative;
 }
 .category-menu-list ul li .cat-left-drop-menu-left ul li a:hover {
-    color: #26ACCE;
+    color: #006e30;
 }
 .category-menu-list ul li .cat-left-drop-menu-left ul li a:before {
     color: #c7c7c7;
@@ -837,7 +837,7 @@ p.welcome-msg {
 }
 .category-menu-list ul li a.menu-item-heading:hover {
     background: none;
-    color: #26ACCE;
+    color: #006e30;
 }
 .category-menu-list > ul > li.arrow-plus:after {
     color: #000;
@@ -850,7 +850,7 @@ p.welcome-msg {
     font-size: 14px;
 }
 .category-menu-list > ul > li.active::after {
-    color: #26acce;
+    color: #006e30;
 }
 .category-menu-list ul li .cat-left-drop-menu-single ul li:hover {
     background: #fff;
@@ -882,7 +882,7 @@ p.welcome-msg {
     background: #fff none repeat scroll 0 0;
 }
 .category-menu-list ul li.rx-parent a:hover {
-    color: #26acce;
+    color: #006e30;
 }
 .padding-for-menu-slider {
     margin: 30px 0px
@@ -921,7 +921,7 @@ p.welcome-msg {
     border-bottom: medium none;
 }
 .category-menu-list ul li .cat-left-drop-menu-left.cat-dropdown ul li a:hover {
-    color: #26ACCE;
+    color: #006e30;
 }
 .category-menu-list ul li .cat-left-drop-menu.cat-left-drop-menu-photo-contain {
     width: 615px;
@@ -955,7 +955,7 @@ p.welcome-msg {
 }
 .layer-1-3 .title3 {
     animation: 1300ms ease-in-out 0s normal none 1 running fadeInRightBig;
-    color: #e95668;
+    color: #ffd535;
     font-family: "Roboto";
     font-size: 50px;
     font-weight: 700;
@@ -966,7 +966,7 @@ p.welcome-msg {
 }
 .layer-1-4 .title4, .layer-2-3 .title3, .layer-3-4 .title4 {
     animation: 1500ms ease-in-out .5s normal none 1 running bounceInUp;
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 14px;
@@ -1007,7 +1007,7 @@ p.welcome-msg {
 }
 .layer-3-1 .title1 {
     animation: 1000ms ease-in-out 0s normal none 1 running fadeInDownBig;
-    color: #26acce;
+    color: #006e30;
     display: block;
     font-size: 28px;
     font-weight: 500;
@@ -1020,7 +1020,7 @@ p.welcome-msg {
 .layer-3-2 .title2 {
     animation: 1500ms ease-in-out 0s normal none 1 running fadeInRightBig;
     clear: both;
-    color: #26acce;
+    color: #006e30;
     display: inline-block;
     font-size: 32px;
     font-weight: 700;
@@ -1078,7 +1078,7 @@ p.welcome-msg {
     color: #fff;
 }
 .preview-1 .nivo-caption a:hover {
-    background: #E95668;
+    background: #ffd535;
 }
 .slider-progress{
     position:absolute;
@@ -1111,7 +1111,7 @@ p.welcome-msg {
     margin-top: 22px;
 }
 h3.title-group {
-    border-bottom: 3px solid #26acce;
+    border-bottom: 3px solid #006e30;
     color: #111;
     display: block;
     font-size: 16px;
@@ -1166,14 +1166,14 @@ a.name-group {
     font-weight: 600;
 }
 a.name-group:hover {
-    color: #e95668;
+    color: #ffd535;
 }
 .price-box {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
 }
 span.price {
-    color: #e95668;
+    color: #ffd535;
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
@@ -1245,7 +1245,7 @@ span.rating i {
 }
 .carosel-navigation .owl-theme .owl-controls .owl-buttons div.owl-prev:hover,
 .carosel-navigation .owl-theme .owl-controls .owl-buttons div.owl-next:hover {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
 }
 /*----------------------------------------*/
 /*  7. Sidebar-Banner
@@ -1352,7 +1352,7 @@ a.posts-read-more:hover {
     margin-top: 32px;
 }
 .product-menu {
-    border-bottom: 3px solid #26acce;
+    border-bottom: 3px solid #006e30;
     overflow: hidden;
     padding: 5px 0;
 }
@@ -1391,10 +1391,10 @@ a.posts-read-more:hover {
     text-transform: capitalize;
 }
 .product-menu ul li.active a {
-    color: #26acce;
+    color: #006e30;
 }
 .product-menu ul li a:hover {
-    color: #26acce;
+    color: #006e30;
 }
 .single-product {
     border: 1px solid #ddd;
@@ -1430,7 +1430,7 @@ a.posts-read-more:hover {
     font-size: 14px;
     font-weight: 600;
 }
-.product-description h5 a:hover {color: #e95668;}
+.product-description h5 a:hover {color: #ffd535;}
 .product-description {
     padding: 0 0 15px 15px;
     position: relative;
@@ -1455,7 +1455,7 @@ a.posts-read-more:hover {
     transform: scale(1);
 }
 .product-button button{
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     border: 0 none;
     box-shadow: none;
     color: #fff;
@@ -1469,7 +1469,7 @@ a.posts-read-more:hover {
     width: 144px;
 }
 .product-button button:hover {
-    background: #e95668 none repeat scroll 0 0;
+    background: #ffd535 none repeat scroll 0 0;
 }
 .product-button-2{
     height: 40px;
@@ -1489,7 +1489,7 @@ a.posts-read-more:hover {
     transition: all 0.5s ease 0s;
 }
 .product-button-2 a:hover {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
 }
 .button-group {
     display: inline-block;
@@ -1502,7 +1502,7 @@ a.posts-read-more:hover {
     z-index: 9;
 }
 .sale-percent, span.new {
-    background: #e95668 none repeat scroll 0 0;
+    background: #ffd535 none repeat scroll 0 0;
     color: #fff;
     display: block;
     font-size: 12px;
@@ -1515,7 +1515,7 @@ a.posts-read-more:hover {
     width: 60px;
 }
 .sale-percent::after, span.new::after {
-    border-color: #e95668 transparent;
+    border-color: #ffd535 transparent;
     border-style: solid;
     border-width: 13px 10px 13px 0;
     content: "";
@@ -1533,11 +1533,11 @@ a.posts-read-more:hover {
     z-index: 8;
 }
 .sale-percent {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
 }
 .sale-percent::after {
-    border-bottom-color: #26acce !important;
-    border-top-color: #26acce !important;
+    border-bottom-color: #006e30 !important;
+    border-top-color: #006e30 !important;
 }
 .single-product:hover .sale-off, .item:hover .sale-off {
     z-index: 10;
@@ -1563,7 +1563,7 @@ a.posts-read-more:hover {
     text-transform: uppercase;
 }
 .small-product-area .product-menu ul li.active a, .small-product-area .product-menu ul li a:hover{
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
 }
 .small-product-area .single-product {
@@ -1660,7 +1660,7 @@ a.posts-read-more:hover {
     padding: 4px 18px;
     transition: all 0.3s ease 0s;
 }
-.subscribe button:hover {background: #26acce none repeat scroll 0 0}
+.subscribe button:hover {background: #006e30 none repeat scroll 0 0}
 
 .social-media {
     float: right;
@@ -1719,7 +1719,7 @@ ul.footer-content li a {
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
-ul.footer-content li a:hover {color: #e95668;}
+ul.footer-content li a:hover {color: #ffd535;}
 .footer-content.box-information {
     margin-left: 0;
 }
@@ -1729,14 +1729,14 @@ ul.footer-content.box-information li {
     min-height: 40px;
 }
 ul.footer-content.box-information li i {
-    color: #e95668;
+    color: #ffd535;
     float: left;
     height: 30px;
     line-height: 30px;
     width: 25px;
 }
 ul.footer-content.box-information li a {
-    color: #26acce;
+    color: #006e30;
 }
 .copyright-area {
     background: #111 none repeat scroll 0 0;
@@ -1752,7 +1752,7 @@ ul.footer-content.box-information li a {
     float: none;
 }
 #scrollUp {
-    background: #e95668 url("images/icon/back-top.png") no-repeat scroll 0 0;
+    background: #ffd535 url("images/product/small/back-top.png") no-repeat scroll 0 0;
     bottom: 35px;
     height: 54px;
     right: 20px;
@@ -1761,7 +1761,7 @@ ul.footer-content.box-information li a {
     width: 54px;
 }
 #scrollUp:hover {
-    background: #26acce url("images/icon/back-top.png") no-repeat scroll 0 -56px;
+    background: #006e30 url("images/icon/back-top.png") no-repeat scroll 0 -56px;
 }
 /*===========================
  15. Product Modal
@@ -1861,7 +1861,7 @@ ul.footer-content.box-information li a {
     border: 1px solid #ddd;
 }
 .quick-add-to-cart .single_add_to_cart_button {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     float: left;
@@ -1872,7 +1872,7 @@ ul.footer-content.box-information li a {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
 }
-.quick-add-to-cart .single_add_to_cart_button:hover{background:#e95668 none repeat scroll 0 0!important}
+.quick-add-to-cart .single_add_to_cart_button:hover{background:#ffd535 none repeat scroll 0 0!important}
 .modal-product .product-info .see-all:hover { color: #ff8787 }
 h3.widget-title-modal{
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -2018,7 +2018,7 @@ h3.widget-title-modal{
     overflow: hidden;
 }
 .hot-deals-button button {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 0;
     color: #fff;
@@ -2027,7 +2027,7 @@ h3.widget-title-modal{
     padding: 5px 9px;
     transition: all 0.3s ease 0s;
 }
-.hot-deals-button button:hover {background: #E95668;}
+.hot-deals-button button:hover {background: #ffd535;}
 .hot-deals-button-2 a {
     display: block;
     float: left;
@@ -2043,7 +2043,7 @@ h3.widget-title-modal{
     transform: scaleX(1);
 }
 .hot-deals-button-2 > a:hover {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
 }
 /*-------------------------------
 18. Product-area
@@ -2064,7 +2064,7 @@ h3.widget-title-modal{
     text-transform: uppercase;
 }
 .product-menu.style-2 > ul li.active a, .product-menu.style-2 > ul li a:hover {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
 }
 .single-product.style-2 .hot-deals-button {
@@ -2095,7 +2095,7 @@ h3.widget-title-modal{
     margin-right: 35px;
 }
 .carosel-navigation-style-2 .owl-controls .owl-buttons div:hover {
-    background: #26ACCE;
+    background: #006e30;
 }
 /* ==================================
   19. Shop Page
@@ -2113,8 +2113,8 @@ ul.page-menu > li {
     display: inline-block;
 }
 ul.page-menu li a {color: #444;}
-ul.page-menu li.active a {color: #e95668;}
-ul.page-menu li:hover a {color: #e95668;}
+ul.page-menu li.active a {color: #ffd535;}
+ul.page-menu li:hover a {color: #ffd535;}
 ul.page-menu > li + li::before {
     color: #ccc;
     content: "/Â ";
@@ -2149,7 +2149,7 @@ span.count{float:right}
 }
 .price_filter .ui-slider-handle.ui-state-default.ui-corner-all {
     background: rgb(243, 169, 178) none repeat scroll 0 0;
-    border: 3px solid #e95668;
+    border: 3px solid #ffd535;
     border-radius: 50%;
     height: 19px;
     margin-top: 0;
@@ -2176,7 +2176,7 @@ span.count{float:right}
     float: right;
 }
 .price_slider_amount > input[type="submit"] {
-    background: #26acce ;
+    background: #006e30 ;
     border-color: #cccccc #cccccc #cccccc -moz-use-text-color;
     border-image: none;
     border-style: solid solid solid none;
@@ -2321,7 +2321,7 @@ span.count{float:right}
 }
 .pagination-area {
     background: #f5f5f5 none repeat scroll 0 0;
-    border-bottom: 3px solid #26acce;
+    border-bottom: 3px solid #006e30;
     margin: 20px 0;
     overflow: hidden;
     padding: 5px 15px;
@@ -2420,7 +2420,7 @@ span.count{float:right}
     width: 100%;
 }
 .current-price {
-    color: #e95668;
+    color: #ffd535;
     font-size: 30px;
 }
 .item-stock {
@@ -2428,7 +2428,7 @@ span.count{float:right}
     padding: 12px 0;
 }
 .text-stock {
-    color: #26acce;
+    color: #006e30;
     font-weight: bold;
 }
 .product-select label {
@@ -2452,7 +2452,7 @@ span.count{float:right}
     line-height: 31px;
 }
 .product-select.product-button > button:hover {
-    background: #26ACCE;
+    background: #006e30;
 }
 .product-quantity {
     margin-top: 15px;
@@ -2486,11 +2486,11 @@ span.count{float:right}
     width: auto;
 }
 .toch-button:hover, .toch-button.toch-add-cart, .toch-menu ul li a:hover, .toch-menu ul li.active a:hover {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
 }
 .toch-button.toch-add-cart:hover {
-    background: #E95668 none repeat scroll 0 0;
+    background: #ffd535 none repeat scroll 0 0;
 }
 .toch-box { margin-top: 60px;}
 .toch-menu ul {
@@ -2514,7 +2514,7 @@ span.count{float:right}
     transition: all 0.3s ease 0s;
 }
 .toch-menu ul li.active a {
-    background: #26acce none repeat scroll 0 0;
+    background: #006e30 none repeat scroll 0 0;
     color: #fff;
 }
 .toch-description-review  {
@@ -2564,7 +2564,7 @@ span.count{float:right}
     margin-bottom: 40px;
 }
 .panel-group .panel-heading {
-    border: 1px solid #26acce;
+    border: 1px solid #006e30;
     border-radius: 0;
     color: #444;
     display: block;
@@ -2582,7 +2582,7 @@ span.count{float:right}
     color: #444;
 }
 .panel-group .panel-heading a {
-    background: #26ACCE;
+    background: #006e30;
     padding: 10px;
     color: #fff;
 }
@@ -2636,7 +2636,7 @@ legend {
     font-family: 'roboto';
 }
 .thank-you {
-    color: #26ACCE;
+    color: #006e30;
     font-weight: 700;
     font-size: 16px;
 }
@@ -2838,7 +2838,7 @@ blockquote {
     overflow: hidden;
 }
 .required {
-    color: #e95668;
+    color: #ffd535;
     font-family: arial;
     font-size: 11px;
 }
